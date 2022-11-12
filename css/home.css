@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+/* Navbar */
+.navbar{
+	position: fixed;
+	align-items: center;
+	top: 0;
+    margin: 0 auto;
+    height: 15%;
+	width: 100%;
+	z-index: 1;
+	background: #A1D6FB;
+}
+
+.navbar-inside {
+    margin: auto;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 35px 45px;
+    padding: 0;
+    background-color: #fff;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.logo {
+    float: left;
+    margin: auto auto auto 100px;
+    height: 40px;
+    width: 40px;
+}
+
+.logo-name {
+    float: left;
+    margin: 0 auto;
+    padding: 10px;
+    padding: auto 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#btn-consult {
+    float: right;
+    background-color: #458FF6;
+    border-radius: 120px;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Body */
+
+.main-container {
+    margin-top: 50px;
+}
+
+.desc-1 {
+    margin-top: 350px;
+    padding-left: 150px;
+    width: 30%;
+    float: left;
+}
+
+.desc-2 {
+    margin-top: 150px;
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.desc-txt {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
